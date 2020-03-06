@@ -1,0 +1,144 @@
+.box{
+  width:200px;
+  height: 100;
+  margin: auto;
+}
+{
+    box-sizing: border-box;
+}
+/*margin of head*/
+body {
+  margin: 0;
+  background-image: url('backgound.png');
+}
+.header {
+    background-color: #fc3f4d;
+    padding: 0px 0px 0px 80px;
+    text-align: left;
+}
+/*style of Navigation Bar*/
+.topnav {
+  overflow: hidden;/*Is to fix bug when use property float to make the content stretch if don't use Navigation Bar are disappear*/
+  background-color: #fc717b;
+  padding: 0px 100px 0px 0px;
+}
+/*Style of bottom*/
+.topnav a {
+  float: right;
+  display: block;/*bottom to block*/
+  color: white;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;/*Line under bottom*/
+  font-size: 15px;
+}
+.footer {
+    background-color: #fc3f4d;
+    position:absolute;
+    top: 100%;/*space in bottom of page*/
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footest {
+  background-color: #fc3f4d;
+  padding: -10%;
+  position:absolute;
+  top: 125%;/*space in bottom of page*/
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form div{
+    margin-top: 5px;
+}
+.font {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+.log {
+  border-radius: 1em;
+  background-color: white;
+  border: 1px solid #fc717b;
+  border-collapse: collapse;
+  margin: 70px 0px 0px 510px;
+  width: 320px;
+  height: 300px;
+  font-size: 16px;
+}
+.profile{
+  border-radius: 1em;
+  background-color: white;
+  border: 1px solid #fc717b;
+  width:320px;
+  height: 270px;
+  margin: 70px 0px 0px 510px;
+  font-size: 20px;
+  padding: 20px 0 0 20px;
+}
+
+.regis {
+  border-radius: 1em;
+  background-color: white;
+  border: 1px solid #fc717b;
+  border-collapse: collapse;
+  margin: 40px 0px 0px 350px;
+  padding: 0px 0px 0px 170px;
+  width: 35%;
+  height: 750px;
+  font-size: 13px;
+}
+.content{
+  border-radius: 1em;
+  background-color: white;
+  margin: 40px 80px 0px 80px;
+  padding: 20px 0px 20px 20px;
+  height: 350px;
+  font-size: 16px;
+}
+#submit {
+  background-color: #bbb;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 4px;
+  color: black;
+  font-family: 'Oswald';
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+}
+
+#submit:hover {
+  border: none;
+  color: #fff;
+  background: #fc717b;
+  box-shadow: 0px 0px 1px #777;
+}
+.productInfo div img {
+  object-fit: contain;
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+  padding:10px;
+}
+.grid-container {
+  display: grid;
+height: 400px;
+align-content: center;
+grid-template-columns: auto auto auto;
+grid-gap: 10px;
+padding: 10px;
+
+}
+.grid-container > div {
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}

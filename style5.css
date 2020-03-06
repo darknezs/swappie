@@ -1,0 +1,152 @@
+.list,th,td,tr{border: 1px solid black;}
+div{font-family: 'Designil Font', 'Maledpan', sans-serif;}
+{
+    box-sizing: border-box;
+}
+/*margin of head*/
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+.header {
+    background-color: #fc3f4d;
+    padding: 0px 0px 0px 80px;
+    text-align: left;
+}
+/*style of Navigation Bar*/
+.topnav {
+  overflow: hidden;/*Is to fix bug when use property float to make the content stretch if don't use Navigation Bar are disappear*/
+  background-color: #fc717b;
+  padding: 0px 100px 0px 0px;
+}
+/*Style of bottom*/
+.topnav a {
+  float: right;
+  display: block;/*bottom to block*/
+  color: white;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;/*Line under bottom*/
+  font-size: 15px;
+}
+
+.footer {
+     background-color: #fc3f4d;
+    position:absolute;
+    top: 100%;/*space in bottom of page*/
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.table{
+  background-color: white;
+  margin: 40px 0px 20px 80px;
+}
+#content .mainContent {
+  float: left;
+  width: 70%;
+  text-align: center;
+  padding-left: 4%;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+  height: 300px;
+  color: rgba(146,146,146,1.00);
+  padding-bottom: 150px;
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+  float: left;
+  margin: 0 50px 0 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 22%;
+}
+
+/* Main content of the site */
+#content {
+  clear: both;
+  overflow: auto;
+  padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+  font-family: 'Montserrat', sans-serif;
+  color: #fc3f4d;
+  float: left;
+  width: 20%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  padding-top: 36px;
+  height: auto;
+}
+/* main content of the site */
+#content .mainContent {
+  float: left;
+  width: 70%;
+  text-align: center;
+  padding-left: 4%;
+  padding-top: 50;
+}
+
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+  text-align: left;
+  color: #fc3f4d;
+  position: relative;
+  left: 0%;
+}
+
+/* Whole page content */
+#mainWrapper {
+  width: 85%;
+  padding-left: 10%;
+}
+
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+  position: relative;
+  top: 0px;
+  width: 70%;
+  background-color: #fc3f4d;
+  height: 35px;
+  color: rgba(255,255,255,1.00);
+  border-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+/* Product's images in catalog */
+.productInfo div img {
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  padding:10px;
+}
+
+.circle {
+    height: auto;
+    width: auto;
+    border: 3px solid #fff;
+    border-radius: 50%; /*curve 50%*/
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /*shadow*/
+}
+
+.grid-container {
+  display: grid;
+height: 400px;
+align-content: center;
+grid-template-columns: auto auto auto;
+grid-gap: 10px;
+padding: 10px;
+
+}
+.grid-container > div {
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
